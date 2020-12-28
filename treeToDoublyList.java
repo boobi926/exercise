@@ -21,6 +21,7 @@ public class treeToDoublyList {
         if (root == null) {
             return null;
         }
+        fun(root);
         Node head = root; //让head指向根节点
         while (head.left != null) {
             head = head.left;  //走到链表的头结点
